@@ -1,0 +1,14 @@
+{
+  "name": "amp-validator-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "amp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amphtml-validator": "^1.0"
+  }
+}
