@@ -16,7 +16,7 @@ class AmpValidator
         $output = implode("\n", $plainOutoput);
 
         if (strpos($output, "Cannot find module 'amphtml-validator'") !== false) {
-            throw new \RuntimeException('Unable to start anphtml-validator. Please run "npm install ind directory ' . realpath(__DIR__ . '/../validator/') . '"');
+            throw new \RuntimeException('Unable to start amphtml-validator. Please run "npm install" in directory ' . realpath(__DIR__ . '/../validator/'));
         }
 
         $failures = json_decode($output, true);
